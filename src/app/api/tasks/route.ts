@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
 
-export interface Tasks {
+export interface Task {
   id: number;
   name: string;
 }
 
-const tasks: Tasks[] = [
+const tasks: Task[] = [
   { id: 1, name: "プログラミング" },
   { id: 2, name: "ランニング" },
 ];
