@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { resolve } from "path";
 
 export interface Task {
   id: number;
